@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 // src/components/NavBar.jsx
 
@@ -7,10 +7,13 @@ const NavBar = () => {
     <nav>
       <ul>
         <li>
-            <Link to ="/">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-            <Link to='/pokemon'>Pokemon</Link>
+          <Link to="/pokemon">Pokemon</Link>
+        </li>
+        <li>
+          <Link to="/pokemon/new">New Pokemon</Link>
         </li>
       </ul>
     </nav>
